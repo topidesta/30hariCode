@@ -1,11 +1,17 @@
 import React from "react";
-import Counter from "./components/Counter";
+import "./Custom.css";
+import Judul from "./components/Judul";
+import Isi from "./components/Isi";
 
 function App() {
   return (
-    <div className="App">
-          <h1>Hello React ParcelJS</h1>
-          <Counter/>
+    <div className="demo">
+      <div className="notificationsFrame">
+        <div className="panel">
+          <Judul />
+          <Isi />
+        </div>
+      </div>
     </div>
   );
 }
