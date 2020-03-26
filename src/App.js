@@ -8,7 +8,7 @@ function App() {
     <div className="demo">
       <div className="notificationsFrame">
         <div className="panel">
-          <Judul />
+          <Judul title="Timeline" />
           <Isi />
         </div>
       </div>
