@@ -9,6 +9,9 @@ function App() {
       <div className="notificationsFrame">
         <div className="panel">
           <Judul title="Timeline" />
+          <Judul title="Profile" />
+          <Judul title="Settings" />
+          <Judul title="Chat" />
           <Isi />
         </div>
       </div>
