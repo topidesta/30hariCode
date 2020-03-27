@@ -7,7 +7,7 @@ class Isi extends Component {
     return (
       <div className="content">
         <div className="line"></div>
-        {/* item timeline */}
+        {/* item timeline using map() function */}
         {activities.map(activity => {
           return (
             <div key={activity.pengguna.id} className="item">
