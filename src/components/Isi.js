@@ -4,6 +4,14 @@ class Isi extends Component {
   render() {
     const { activities } = this.props; // ES6 destructuring
 
+    // not recomended! https://flaviocopes.com/react-how-to-loop/
+    for (const {
+      text: t,
+      pengguna: { nama: n }
+    } of activities) {
+      console.log("Aktifitas " + t + ", Nama: " + n);
+    }
+
     return (
       <div className="content">
         <div className="line"></div>
@@ -20,7 +28,6 @@ class Isi extends Component {
             </div>
           );
         })}
-
         {/* .... */}
       </div>
     );
