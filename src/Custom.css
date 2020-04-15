@@ -55,7 +55,7 @@
 .demo .notificationsFrame .header {
   position: relative;
   height: 60px;
-  background: #5f98cd;
+  /* background: #5f98cd; */
   padding-top: 0;
 }
 
