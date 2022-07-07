@@ -14,7 +14,7 @@
   "author": "topidesta as emang_dasar",
   "license": "MIT",
   "dependencies": {
-    "moment": "^2.24.0",
+    "moment": "^2.29.4",
     "parcel-bundler": "^1.12.4",
     "react": "^16.6.0",
     "react-dom": "^16.12.0"
